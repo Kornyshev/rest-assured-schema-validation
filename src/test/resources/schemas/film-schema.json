@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {"type": "string"},
+    "episode_id": {"type": "integer"},
+    "opening_crawl": {"type": "string"},
+    "director": {"type": "string"},
+    "producer": {"type": "string"},
+    "release_date": {"type": "string"},
+    "species": {"type": "array"},
+    "starships": {"type": "array"},
+    "vehicles": {"type": "array"},
+    "characters": {"type": "array"},
+    "planets": {"type": "array"},
+    "url": {"type": "string"},
+    "created": {"type": "string"},
+    "edited": {"type": "string"}
+  },
+  "required": ["title", "episode_id", "director", "producer", "release_date"]
+}
